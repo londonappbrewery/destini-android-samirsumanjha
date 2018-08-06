@@ -59,22 +59,22 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void upDateTopButton(){
-        if(mStoryIdTop == 1 && mStoryIdBottom==0 && mTopButtonPressed){
+        if(mStoryIdTop == 1 && mStoryIdBottom==0  ){
             mStoryTextView.setText(R.string.T3_Story);
             mButtonTop.setText(R.string.T3_Ans1);
             mButtonBottom.setText(R.string.T3_Ans2);
         }
-        else if(mStoryIdTop == 2 && mStoryIdBottom==0 && mTopButtonPressed){
+        else if(mStoryIdTop == 2 && mStoryIdBottom==0 ){
             mStoryTextView.setText(R.string.T6_End);
             mButtonTop.setVisibility(View.GONE);
             mButtonBottom.setVisibility(View.GONE);
         }
-        else if (mStoryIdBottom== 1 && mStoryIdTop== 1 && mTopButtonPressed){
+        else if (mStoryIdBottom== 1 && mStoryIdTop== 1  ){
             mStoryTextView.setText(R.string.T3_Story);
             mButtonTop.setText(R.string.T3_Ans1);
             mButtonBottom.setText(R.string.T3_Ans2);
         }
-        else if (mStoryIdBottom==1 && mStoryIdTop==2 && mTopButtonPressed){
+        else if (mStoryIdBottom==1 && mStoryIdTop==2  ){
             mStoryTextView.setText(R.string.T6_End);
             mButtonTop.setVisibility(View.GONE);
             mButtonBottom.setVisibility(View.GONE);
@@ -82,22 +82,22 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void upDateBottomButton(){
-        if(mStoryIdBottom == 1 && mStoryIdTop==0 && mBottomButtonPressed){
+        if(mStoryIdBottom == 1 && mStoryIdTop==0  ){
             mStoryTextView.setText(R.string.T2_Story);
             mButtonTop.setText(R.string.T2_Ans1);
             mButtonBottom.setText(R.string.T2_Ans2);
         }
-        else if(mStoryIdBottom == 2 && mStoryIdTop==0 && mBottomButtonPressed){
+        else if(mStoryIdBottom == 2 && mStoryIdTop==0  ){
             mStoryTextView.setText(R.string.T4_End);
             mButtonTop.setVisibility(View.GONE);
             mButtonBottom.setVisibility(View.GONE);
         }
-        else if (mStoryIdTop==1 && mStoryIdBottom==1 &&  mBottomButtonPressed){
+        else if (mStoryIdTop==1 && mStoryIdBottom==1  ){
             mStoryTextView.setText(R.string.T5_End);
             mButtonTop.setVisibility(View.GONE);
             mButtonBottom.setVisibility(View.GONE);
         }
-        else if (mStoryIdBottom==2 && mStoryIdTop==1 && mBottomButtonPressed){
+        else if (mStoryIdBottom==2 && mStoryIdTop==1  ){
             mStoryTextView.setText(R.string.T5_End);
             mButtonTop.setVisibility(View.GONE);
             mButtonBottom.setVisibility(View.GONE);
